@@ -1,0 +1,67 @@
+nav {
+    height: 90px;
+    font-size: 30px;
+}
+
+.message {
+    padding-left: 8rem;
+}
+
+@media screen and (max-width: 980px) {
+    nav {
+        font-size: 25px;
+    }
+    .message {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        height: 15%;
+        font-size: 25px;
+    }
+    .message {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        height: 17%;
+        font-size: 25px;
+    }
+    .message {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    nav {
+        height: 30%;
+        font-size: 25px;
+    }
+    .message {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    nav {
+        height: 25%;
+        font-size: 25px;
+    }
+    .message {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    nav {
+        height: 30%;
+        font-size: 25px;
+    }
+    .message {
+        padding-left: 0;
+    }
+}

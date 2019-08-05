@@ -1,0 +1,150 @@
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+    color: #2A77AE;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.game-details {
+    width: 100%;
+    text-align: center;
+    /* text-decoration: underline; */
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        /* text-decoration: underline; */
+        color: #2A77AE;
+        margin-bottom: 20px;
+        margin-top: 180px;
+    }
+    .game-details {
+        width: 100%;
+        text-align: center;
+        /* text-decoration: underline; */
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        /* text-decoration: underline; */
+        color: #2A77AE;
+        margin-bottom: 20px;
+        margin-top: 200px;
+    }
+    .game-details {
+        width: 100%;
+        text-align: center;
+        /* text-decoration: underline; */
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        /* text-decoration: underline; */
+        color: #2A77AE;
+        margin-bottom: 20px;
+        margin-top: 280px;
+    }
+    .game-details {
+        width: 100%;
+        text-align: center;
+        /* text-decoration: underline; */
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        /* text-decoration: underline; */
+        color: #2A77AE;
+        margin-bottom: 20px;
+        margin-top: 220px;
+    }
+    .game-details {
+        width: 100%;
+        text-align: center;
+        /* text-decoration: underline; */
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        /* text-decoration: underline; */
+        color: #2A77AE;
+        margin-bottom: 20px;
+        margin-top: 200px;
+    }
+    .game-details {
+        width: 100%;
+        text-align: center;
+        /* text-decoration: underline; */
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        /* text-decoration: underline; */
+        color: #2A77AE;
+        margin-bottom: 20px;
+        margin-top: 250px;
+    }
+    .game-details {
+        width: 100%;
+        text-align: center;
+        /* text-decoration: underline; */
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        /* text-decoration: underline; */
+        color: #2A77AE;
+        margin-bottom: 20px;
+        margin-top: 200px;
+    }
+    .game-details {
+        width: 100%;
+        text-align: center;
+        /* text-decoration: underline; */
+        margin-bottom: 20px;
+    }
+}
