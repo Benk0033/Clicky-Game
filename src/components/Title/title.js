@@ -1,6 +1,7 @@
 import React from "react";
 import "./title.css";
 
+// title component using props passed from App.js
 const Title = (props) => {
     return (
         <div>

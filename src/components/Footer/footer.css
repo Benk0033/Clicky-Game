@@ -1,4 +1,9 @@
 footer {
-    color: white;
     text-align: center;
+}
+
+#root>div>footer {
+    color: #2A77AE;
+    background-color: black !important;
+    opacity: .8;
 }

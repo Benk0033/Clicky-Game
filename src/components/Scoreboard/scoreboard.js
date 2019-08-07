@@ -1,26 +1,13 @@
 import React, { Component } from "react";
 import "./scoreboard.css";
 
-const beginMessage = "Click and image to begin!";
-const winMessage = "You guessed correctly!";
-const loseMessage = "You guessed incorrectly!";
+// variables for different game messages displayed on scoreboard depending on various conditions
+const beginMessage = "Click an image to begin!";
+const winMessage = <p className="text-success text-uppercase font-weight-bold" >You guessed correctly!</p>;
+const loseMessage = <p className="text-danger text-uppercase font-weight-bold" >You guessed incorrectly!</p>;
 
+// component for scoreboard using props passed from App.js
 class Scoreboard extends Component {
-
-    // constructor(props) {
-    //     super(props);
-    //     this.handleIncrement = this.handleIncrement.bind(this)
-    // }
-
-    // state = {
-    //     score: 0,
-    //     topScore: 0
-    // }
-
-    // handleIncrement = () => {
-    //     this.setState({ score: this.state.score + 1 });
-    // };
-
 
     render() {
 
@@ -31,35 +18,19 @@ class Scoreboard extends Component {
                         Clicky Game
                     </span>
                     <span className="navbar-text message">
+                        {/* ternary operator to display various messages on scoreboard based on conditions */}
                         {(this.props.score === 0 && this.props.topScore === 0) ? beginMessage
                             : this.props.score > 0 ? winMessage
                                 : loseMessage}
                     </span>
                     <span className="navbar-text scores">
+                        {/* displays score and top score */}
                         Score: {this.props.score} | Top Score: {this.props.topScore}
                     </span>
                 </nav>
             </div>
-        )
-    }
+        );
+    };
 };
-
-// const Scoreboard = (props) => {
-//     return (
-//         <div>
-//             <nav className="navbar sticky-top navbar-dark bg-primary">
-//                 <span className="navbar-text">
-//                     Clicky Game
-//                 </span>
-//                 <span className="navbar-text">
-//                     Click an image to begin!
-//                 </span>
-//                 <span className="navbar-text">
-//                     Score: {props.score} | Top Score: 0
-//                 </span>
-//             </nav>
-//         </div>
-//     )
-// }
 
 export default Scoreboard;

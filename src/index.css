@@ -19,3 +19,11 @@ html, body, #root {
   margin: 0;
   height: 100%;
 }
+
+html {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/1/18/Dbz.jpg) no-repeat center center fixed;
+}
+
+body {
+  background-color: transparent;
+}
