@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ##DBZ-Clicky-Game
 
-![image](https://user-images.githubusercontent.com/47204339/62593874-4dff7e80-b88d-11e9-9bc6-9a5bddf95a34.png)
+![image](https://user-images.githubusercontent.com/47204339/62594517-c6ffd580-b88f-11e9-9c5b-3a37fc327009.png)
 
 link to live application: https://benk0033.github.io/clicky-game/
 
